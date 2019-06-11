@@ -1,0 +1,144 @@
+@import url('');
+
+section{
+  display: flex;
+	justify-items: center;
+	padding: 20px 0;
+	text-align: left;
+  margin:10px;
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url(../assets/museo/FiraSansCondensed-Bold...font.woff) format("woff");
+    
+}
+
+body {
+    font-family: "Museo", sans-serif;
+}
+
+
+
+#halfpagephoto{
+  height: 1000px;
+  Width: 50%;
+}
+
+#summer{
+  position:relative;
+  font-size: 150px;
+  color:#014262;
+  background-color: #fbf7eb;
+  left:-100px;
+  margin: 5px;
+  height:150px;
+  width: 700px;
+  font-family: "Fira Sans Condensed Bold";
+  
+  
+}
+  
+  #summer2{
+  position:relative;
+  font-size: 150px;
+  color:#014262;
+  background-color: #fbf7eb;
+  left:-100px;
+  margin: 5px;
+  
+  height:150px;
+  width: 420px;
+  font-family: "Fira Sans Condensed Bold";
+  
+  
+}
+
+#p1{
+  display:flex;
+  font-size: 20px;
+  color:#014262;
+  justify-content:center;
+  margin:40px 20px;
+  
+  font-family: "Roboto Slab Bold";
+  
+  
+  
+}
+
+#p2{
+  display:flex;
+  font-size: 16px;
+  color:#4e4e4e;
+  justify-content:center;
+  margin:40px 20px;
+  font-family: "Roboto Slab Regular";
+  
+}
+
+#small{
+  position:relative;
+  hieght:200px;
+  width: 200px;
+  right:100px;
+  margin:0px 5px;
+  border-radius:5px;
+  
+}
+  
+
+
+@media screen and (max-width: 768px) {
+  section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  #halfpagephoto{
+    hieght:50%;
+    width:50%
+    
+  }
+  
+  #summer{
+   font-size:90px;
+   left:-10px;
+   top:-75px;
+   margin: 10px;
+  
+  height:100px;
+  width: 420px;
+  font-family: "Fira Sans Condensed Bold";
+  }
+  
+  #summer2{
+   font-size:90px;
+   left:-10px;
+   margin: 10px;
+   top:-75px;
+   height:100px;
+   width: 250px;
+  font-family: "Fira Sans Condensed Bold";
+  }
+  
+  #p1 {
+    font-size:16px
+  }
+  
+  #p2{
+    font-size: 12.31px;
+    
+  }
+  
+  #Small{
+   align-items:center;
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+    
+    
+  }
+
+	}
