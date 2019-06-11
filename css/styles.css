@@ -10,8 +10,10 @@ section{
 
 @font-face {
     font-family: 'FiraSans';
-    src: url(../assets/museo/FiraSansCondensed-Bold...font.woff) format("woff");
-    
+    src: url(../css/assets/FiraSansCondensed-Bold...font.woff) format("woff");
+    font-family: 'RobotoSlab';
+    src: url(../css/assets/RobotoSlab-Bold-webfont.woff) format("woff");
+    src: url(../css/assets/RobotoSlab-Regular-...ont.woff) format("woff");
 }
 
 body {
